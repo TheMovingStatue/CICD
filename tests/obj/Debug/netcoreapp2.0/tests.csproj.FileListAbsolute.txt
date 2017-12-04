@@ -1,0 +1,3 @@
+C:\Projects\CICD\tests\obj\Debug\netcoreapp2.0\tests.csproj.CoreCompileInputs.cache
+C:\Projects\CICD\tests\obj\Debug\netcoreapp2.0\tests.AssemblyInfoInputs.cache
+C:\Projects\CICD\tests\obj\Debug\netcoreapp2.0\tests.AssemblyInfo.cs
