@@ -22,7 +22,7 @@ namespace api.Controllers
             var response = await httpClient.GetAsync("http://numbersapi.com/" + number + "?json");
             var triviaResult = await response.Content.ReadAsStringAsync();
             var res = JsonConvert.DeserializeObject<TriviaResponse>(triviaResult);
-            res.Text += " YES SIR";
+            res.Text += " YES SIR EEE";
             return res;
         }
     }
