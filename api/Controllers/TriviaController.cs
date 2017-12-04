@@ -17,8 +17,6 @@ namespace api.Controllers
         [HttpGet("{number}")]
         public async Task<TriviaResponse> GetAsync(int number)
         {
-            var x=10;
-            x=x+22;
             //Call numbersapi.com and return results
             var httpClient = new HttpClient();
             var response = await httpClient.GetAsync("http://numbersapi.com/" + number + "?json");
